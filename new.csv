@@ -1,0 +1,406 @@
+Person ID,Gender,Age,Occupation,Sleep Duration (hours),Quality of Sleep (scale: 1-10),Physical Activity Level (minutes/day),Stress Level (scale: 1-10),BMI Category,Blood Pressure (systolic/diastolic),Heart Rate (bpm),Daily Steps,Sleep Disorder,Systolic,Diastolic,Pulse Pressure,BP Category
+1,Male,29,Manual Labor,9.6,5.6,41,7,Obese,124/70,91,8539,No,124,70,54,Elevated
+2,Female,43,Retired,6.1,5.4,41,5,Obese,131/86,81,18754,No,131,86,45,Elevated
+3,Male,44,Retired,7.8,9.3,107,4,Underweight,122/70,81,2857,No,122,70,52,Elevated
+4,Male,29,Office Worker,11.9,,20,10,Obese,124/72,55,6886,No,124,72,52,Elevated
+5,Male,67,Retired,11.8,7.7,19,4,Overweight,133/78,97,14945,Insomnia,133,78,55,Elevated
+6,Female,47,Student,9.4,5.9,24,4,Normal,123/60,87,9485,No,123,60,63,Elevated
+7,Male,22,Office Worker,8,5.6,26,6,Obese,121/70,66,15680,No,121,70,51,Elevated
+8,Male,49,Office Worker,8.4,6.6,49,8,Obese,134/87,59,18767,No,134,87,47,Elevated
+9,Male,25,Manual Labor,10.1,6.3,27,8,Underweight,112/63,99,16397,Sleep Apnea,112,63,49,Normal
+10,Female,51,Retired,5.1,8.9,64,5,Overweight,125/84,76,12744,No,125,84,41,Elevated
+11,Male,57,Manual Labor,6.8,1.7,82,6,Obese,138/92,99,6334,No,138,92,46,Elevated
+12,Male,27,Student,4.3,7.2,34,4,Underweight,113/66,84,14226,No,113,66,47,Normal
+13,Male,54,Office Worker,9.2,3.6,113,9,Obese,137/90,70,15440,Sleep Apnea,137,90,47,Elevated
+14,Male,46,Office Worker,10.1,8.4,68,8,Underweight,123/73,74,17020,No,123,73,50,Elevated
+15,Female,52,Office Worker,6.2,2.7,87,10,Underweight,126/81,77,6251,No,126,81,45,Elevated
+16,Male,68,Student,11.5,9.2,98,10,Overweight,134/79,96,,No,134,79,55,Elevated
+17,Female,36,Student,4.7,5.8,31,1,Obese,128/78,64,18140,No,128,78,50,Elevated
+18,Female,28,Manual Labor,4.5,4.8,39,2,Overweight,114/65,53,2922,No,114,65,49,Normal
+19,Female,26,Manual Labor,8.8,5,93,9,Underweight,113/65,78,9957,Sleep Apnea,113,65,48,Normal
+20,Male,27,Manual Labor,10.9,4.3,94,8,Normal,113/63,58,17796,Insomnia,113,63,50,Normal
+21,Female,38,Retired,11.8,4.2,53,3,Obese,129/75,76,3230,No,129,75,54,Elevated
+22,Male,45,Office Worker,,4.5,41,8,Normal,122/77,75,12627,Insomnia,122,77,45,Elevated
+23,Female,44,Office Worker,10.9,5.6,60,1,Obese,132/86,68,12006,No,132,86,46,Elevated
+24,Female,52,Manual Labor,7.8,4.4,55,10,Overweight,126/78,77,6933,Insomnia,126,78,48,Elevated
+25,Female,40,Office Worker,7.3,5.4,30,4,Overweight,120/77,66,16295,Insomnia,120,77,43,Normal
+26,Female,61,Manual Labor,10.4,8.1,108,3,Overweight,130/85,92,18377,No,130,85,45,Elevated
+27,Female,36,Retired,10.1,7.8,41,6,Overweight,118/71,90,2203,Insomnia,118,71,47,Normal
+28,Female,80,Retired,4.3,7.5,103,7,Overweight,140/86,91,18544,No,140,86,54,Elevated
+29,Female,49,Student,11.5,5.4,48,4,Normal,124/73,99,17899,No,124,73,51,Elevated
+30,Female,27,Retired,11.4,8.7,21,7,Overweight,113/63,69,5748,No,113,63,50,Normal
+31,Male,23,Manual Labor,5.8,4.8,114,9,Underweight,111/60,94,8718,No,111,60,51,Normal
+32,Male,47,Retired,9.3,1,56,2,Underweight,123/74,89,3093,Insomnia,123,74,49,Elevated
+33,Female,36,Student,9.6,5.9,27,3,Normal,118/67,88,17228,Sleep Apnea,118,67,51,Normal
+34,Female,50,Office Worker,8.9,6.7,30,5,Obese,135/86,98,18034,No,135,86,49,Elevated
+34,Female,50,Office Worker,8.9,8.8,30,5,Obese,135/86,98,18034,No,135,86,49,Elevated
+35,Female,47,Manual Labor,6.1,5.7,22,3,Underweight,123/72,72,7710,Insomnia,123,72,51,Elevated
+36,Male,38,Office Worker,5.8,6.2,30,8,Obese,129/82,96,11732,Insomnia,129,82,47,Elevated
+37,Female,27,Student,7.5,10,17,10,Normal,113/76,81,5191,No,113,76,37,Normal
+38,Male,18,Student,11,5.7,55,8,Obese,119/70,96,2689,No,119,70,49,Normal
+39,Male,33,Student,9.7,3.3,113,8,Obese,126/69,82,4103,No,126,69,57,Elevated
+40,Male,52,Office Worker,,5,119,9,Obese,136/82,95,2365,No,136,82,54,Elevated
+41,Male,43,Office Worker,10.2,8,16,4,Obese,131/77,54,16010,Sleep Apnea,131,77,54,Elevated
+42,Male,21,Office Worker,4.1,6,32,5,Normal,110/60,92,13767,No,110,60,50,Normal
+43,Female,42,Office Worker,11,6.7,117,5,Underweight,121/71,97,18103,Insomnia,121,71,50,Elevated
+44,Female,45,Student,4.2,,105,8,Overweight,122/72,83,14742,No,122,72,50,Elevated
+45,Female,26,Student,6.4,2.5,84,7,Obese,123/77,89,14391,No,123,77,46,Elevated
+46,Female,42,Manual Labor,4.9,2.7,95,9,Underweight,121/73,60,6172,No,121,73,48,Elevated
+47,Female,40,Manual Labor,4.7,4.6,31,8,Underweight,120/67,99,17623,No,120,67,53,Normal
+48,Male,22,Office Worker,11,5.7,116,2,Normal,111/60,52,4378,No,111,60,51,Normal
+49,Female,45,Retired,6.2,5.5,98,10,Underweight,122/73,82,19589,No,122,73,49,Elevated
+50,Female,48,Retired,9.1,7.1,31,4,Normal,124/77,60,14031,No,124,77,47,Elevated
+51,Male,56,Student,7.4,,101,6,Obese,138/88,65,7669,No,138,88,50,Elevated
+52,Female,55,Student,9.5,7.4,38,2,Obese,137/84,67,4735,No,137,84,53,Elevated
+53,Male,19,Student,8.3,10,22,7,Overweight,109/67,79,11867,Insomnia,109,67,42,Normal
+54,Female,25,Manual Labor,4.6,7.7,91,3,Overweight,112/74,97,10490,No,112,74,38,Normal
+55,Male,47,Manual Labor,10.8,3.7,11,3,Overweight,123/76,59,2956,No,123,76,47,Elevated
+56,Female,47,Student,6.2,3.4,38,2,Underweight,123/80,67,11306,No,123,80,43,Elevated
+57,Female,47,Student,4.4,3.4,94,8,Obese,133/86,87,8623,No,133,86,47,Elevated
+58,Male,90,Student,6.2,7,88,6,Normal,145/96,68,16908,Sleep Apnea,145,96,49,Hypertension
+59,Male,48,Retired,11.5,4.1,61,1,Overweight,124/77,85,,No,124,77,47,Elevated
+60,Male,57,Manual Labor,10.4,6.8,36,1,Normal,128/71,62,6460,No,128,71,57,Elevated
+61,Male,54,Retired,6.4,5.9,59,7,Normal,127/76,95,15986,Insomnia,127,76,51,Elevated
+62,Male,49,Retired,6.3,10,104,8,Overweight,124/73,52,14638,No,124,73,51,Elevated
+63,Male,35,Student,6.6,9.3,88,5,Obese,127/74,59,4850,No,127,74,53,Elevated
+64,Male,51,Student,11.9,7.2,32,5,Overweight,125/81,87,15299,No,125,81,44,Elevated
+65,Male,28,Office Worker,9.2,6.4,97,4,Normal,114/60,50,12698,No,114,60,54,Normal
+66,Female,36,Office Worker,9.5,5.7,53,6,Overweight,118/69,76,6594,No,118,69,49,Normal
+67,Female,32,Retired,10.9,4.1,86,6,Normal,116/63,95,16282,No,116,63,53,Normal
+68,Male,41,Manual Labor,,7.7,31,3,Normal,120/76,57,18285,Insomnia,120,76,44,Normal
+69,Female,74,Student,6.8,3.8,52,9,Overweight,137/95,100,16334,Insomnia,137,95,42,Elevated
+70,Female,18,Student,6.8,8,46,7,Underweight,109/60,95,8644,No,109,60,49,Normal
+71,Female,50,Retired,7.6,6,70,1,Overweight,125/74,91,4850,No,125,74,51,Elevated
+72,Female,18,Office Worker,7.5,,106,7,Underweight,109/64,66,16933,Insomnia,109,64,45,Normal
+73,Male,32,Manual Labor,10.4,1,65,5,Normal,116/71,58,2165,No,116,71,45,Normal
+74,Female,56,Office Worker,8,8,12,5,Normal,128/73,55,12701,Insomnia,128,73,55,Elevated
+75,Male,40,Office Worker,10.3,2.6,72,2,Underweight,120/76,92,2919,Insomnia,120,76,44,Normal
+76,Female,23,Office Worker,7.4,6.1,28,4,Normal,111/60,74,10305,Insomnia,111,60,51,Normal
+77,Female,29,Office Worker,8.3,4.7,32,6,Underweight,114/69,88,19375,No,114,69,45,Normal
+78,Female,50,Student,4.2,6,38,10,Underweight,125/72,98,17715,No,125,72,53,Elevated
+79,Male,29,Student,10.5,6.2,39,7,Normal,114/66,77,5839,No,114,66,48,Normal
+80,Female,43,Office Worker,9.1,8.2,48,5,Obese,131/78,82,,Insomnia,131,78,53,Elevated
+81,Male,40,Manual Labor,10.8,6.3,117,9,Underweight,120/73,86,13618,No,120,73,47,Normal
+82,Female,30,Retired,4.1,7.7,120,3,Overweight,115/66,58,15519,Insomnia,115,66,49,Normal
+83,Male,72,Manual Labor,12,4,34,1,Overweight,136/86,67,12776,No,136,86,50,Elevated
+84,Female,49,Manual Labor,7.3,4,110,4,Normal,124/80,70,2067,No,124,80,44,Elevated
+85,Male,18,Manual Labor,11,5.6,120,9,Obese,119/66,51,11788,No,119,66,53,Normal
+86,Male,42,Office Worker,4.9,9,17,4,Normal,121/74,92,7660,No,121,74,47,Elevated
+87,Female,30,Student,9.9,10,115,2,Obese,125/77,87,,No,125,77,48,Elevated
+88,Male,52,Manual Labor,5,6.8,67,10,Underweight,126/81,89,10210,No,126,81,45,Elevated
+89,Female,28,Office Worker,6.1,5.2,25,5,Underweight,114/77,85,12922,Sleep Apnea,114,77,37,Normal
+90,Female,38,Manual Labor,11.9,2.8,81,3,Underweight,119/70,99,5521,No,119,70,49,Normal
+91,Female,47,Manual Labor,6.9,8.4,10,9,Underweight,123/61,92,,No,123,61,62,Elevated
+92,Female,52,Office Worker,8.8,7.8,117,4,Overweight,126/73,86,9082,No,126,73,53,Elevated
+93,Female,21,Student,10.4,6.9,14,6,Overweight,110/61,64,7395,Insomnia,110,61,49,Normal
+94,Female,34,Student,9.6,6.5,12,2,Normal,117/69,77,17407,Insomnia,117,69,48,Normal
+94,Female,34,Student,9.6,6.8,12,2,Normal,117/69,77,17407,Insomnia,117,69,48,Normal
+95,Female,32,Retired,8.7,7,74,6,Obese,126/76,67,13094,No,126,76,50,Elevated
+96,Female,30,Office Worker,9.1,5.3,13,3,Underweight,115/63,83,2650,Insomnia,115,63,52,Normal
+97,Female,66,Retired,12,6.3,113,9,Underweight,133/89,71,7741,Insomnia,133,89,44,Elevated
+98,Female,46,Retired,7.6,5.8,108,2,Obese,133/78,60,15281,No,133,78,55,Elevated
+99,Female,21,Retired,8.8,8.3,105,9,Obese,120/67,62,8838,No,120,67,53,Normal
+100,Male,53,Student,10.9,4.8,73,5,Normal,126/73,53,5262,No,126,73,53,Elevated
+101,Male,71,Office Worker,11,4.6,115,8,Obese,145/93,71,19722,No,145,93,52,Hypertension
+102,Female,55,Retired,11,8.5,107,2,Underweight,127/77,56,6996,Insomnia,127,77,50,Elevated
+103,Female,18,Office Worker,10.1,8,116,6,Underweight,109/60,92,13826,No,109,60,49,Normal
+104,Female,32,Office Worker,4.8,6.3,98,3,Underweight,116/64,73,4827,Sleep Apnea,116,64,52,Normal
+105,Female,59,Student,11.6,6.6,19,10,Underweight,129/81,53,16211,No,129,81,48,Elevated
+106,Female,29,Retired,4.8,6.3,30,5,Underweight,114/67,77,7232,No,114,67,47,Normal
+107,Female,46,Retired,,4.7,55,8,Normal,123/73,64,42170,No,123,73,50,Elevated
+108,Female,51,Office Worker,5.4,9,112,10,Underweight,125/68,50,16232,No,125,68,57,Elevated
+109,Female,26,Manual Labor,7.6,4.5,100,1,Normal,113/70,52,16026,Insomnia,113,70,43,Normal
+110,Male,39,Student,9.1,6.4,36,5,Underweight,119/77,63,15878,Insomnia,119,77,42,Normal
+111,Female,18,Student,8.9,,75,3,Overweight,109/60,87,8837,No,109,60,49,Normal
+112,Male,24,Student,9.3,3.4,50,4,Overweight,112/62,99,9031,No,112,62,50,Normal
+113,Female,36,Student,11.6,5.4,22,2,Overweight,118/68,50,16806,No,118,68,50,Normal
+114,Female,21,Retired,9.5,3.7,18,9,Overweight,110/60,87,5716,No,110,60,50,Normal
+115,Male,64,Retired,6.8,1,45,3,Normal,132/84,87,5414,No,132,84,48,Elevated
+116,Female,18,Manual Labor,10.6,9.3,95,2,Normal,109/60,70,19832,No,109,60,49,Normal
+117,Male,33,Student,11,9.1,115,10,Obese,126/85,97,2570,No,126,85,41,Elevated
+118,Female,41,Student,4.7,5.9,99,9,Underweight,120/75,78,15288,Sleep Apnea,120,75,45,Normal
+119,Female,61,Office Worker,9.9,10,67,7,Overweight,130/81,54,2917,No,130,81,49,Elevated
+120,Male,18,Retired,10.2,5.1,63,6,Normal,109/68,98,12066,No,109,68,41,Normal
+121,Female,57,Student,6.7,6.8,21,1,Underweight,128/79,59,8982,No,128,79,49,Elevated
+122,Male,40,Manual Labor,11.4,7.9,90,5,Underweight,120/62,77,8336,No,120,62,58,Normal
+123,Female,25,Manual Labor,7.2,3.4,87,3,Normal,112/62,70,18999,No,112,62,50,Normal
+124,Male,46,Retired,8.5,5.3,23,1,Overweight,123/72,99,11941,Sleep Apnea,123,72,51,Elevated
+125,Male,42,Manual Labor,7.3,6.8,43,4,Obese,131/88,56,14380,Insomnia,131,88,43,Elevated
+126,Female,30,Manual Labor,7.8,8.4,62,2,Underweight,115/69,52,13667,No,115,69,46,Normal
+127,Female,41,Retired,4.9,5.4,29,2,Obese,130/82,94,6529,No,130,82,48,Elevated
+128,Male,34,Student,4.4,8.4,84,3,Overweight,117/69,96,19519,No,117,69,48,Normal
+129,Female,41,Student,11.6,6.4,25,8,Overweight,120/64,69,14192,Insomnia,120,64,56,Normal
+130,Female,49,Manual Labor,5.3,8.2,104,8,Obese,134/82,68,10566,No,134,82,52,Elevated
+131,Female,63,Manual Labor,5.1,8.2,79,7,Overweight,131/87,84,9226,No,131,87,44,Elevated
+132,Male,21,Student,4.1,,65,6,Underweight,110/60,53,7162,No,110,60,50,Normal
+133,Male,71,Retired,5.8,7.6,92,9,Obese,145/93,54,18590,No,145,93,52,Hypertension
+134,Male,18,Manual Labor,4.6,,110,4,Overweight,109/60,50,3319,No,109,60,49,Normal
+135,Male,37,Office Worker,11.6,7.5,67,1,Obese,128/71,53,3141,Sleep Apnea,128,71,57,Elevated
+136,Male,48,Retired,10.8,4.7,13,8,Underweight,124/80,61,6627,No,124,80,44,Elevated
+137,Male,44,Manual Labor,5.8,3.2,120,7,Overweight,122/77,76,16501,No,122,77,45,Elevated
+138,Male,30,Manual Labor,,10,13,7,Underweight,115/72,91,4690,No,115,72,43,Normal
+139,Male,36,Office Worker,10.8,5.7,29,3,Overweight,118/70,72,9323,Insomnia,118,70,48,Normal
+140,Male,32,Office Worker,6.6,7.2,19,4,Normal,116/64,74,5255,Sleep Apnea,116,64,52,Normal
+141,Female,31,Student,4.1,6.3,33,10,Overweight,115/61,70,7213,No,115,61,54,Normal
+142,Male,52,Retired,12,,108,9,Obese,136/87,73,6108,Insomnia,136,87,49,Elevated
+143,Female,45,Retired,4.5,7.9,35,6,Overweight,122/74,74,11802,No,122,74,48,Elevated
+144,Female,29,Student,4.3,6.7,46,5,Underweight,114/64,94,13413,No,114,64,50,Normal
+145,Female,53,Retired,10.7,7.1,111,3,Underweight,126/81,95,16995,No,126,81,45,Elevated
+146,Male,44,Retired,11.9,6.1,94,9,Overweight,122/62,81,14583,No,122,62,60,Elevated
+147,Male,52,Retired,11.4,6.4,63,5,Obese,136/95,81,,No,136,95,41,Elevated
+148,Male,49,Retired,9.6,,113,5,Normal,124/74,54,8582,No,124,74,50,Elevated
+149,Male,27,Retired,9.9,5.9,112,4,Obese,123/63,85,15455,No,123,63,60,Elevated
+150,Female,31,Office Worker,10.4,4.8,30,4,Normal,115/65,95,15117,Sleep Apnea,115,65,50,Normal
+151,Male,51,Retired,10.3,3.5,83,1,Underweight,125/76,91,19359,No,125,76,49,Elevated
+152,Male,49,Office Worker,9,7.4,47,7,Obese,134/86,98,3262,No,134,86,48,Elevated
+153,Male,39,Retired,8.3,7.2,55,9,Normal,119/70,91,9382,No,119,70,49,Normal
+154,Male,41,Student,7.6,,13,3,Overweight,120/64,88,5327,Insomnia,120,64,56,Normal
+155,Male,59,Manual Labor,5.4,5.5,69,2,Underweight,129/91,65,12020,No,129,91,38,Elevated
+156,Female,31,Office Worker,6.7,9.2,66,3,Overweight,115/60,82,19641,No,115,60,55,Normal
+157,Male,48,Retired,4.3,4.2,54,1,Underweight,124/82,98,,Sleep Apnea,124,82,42,Elevated
+158,Female,36,Student,7.4,2.4,29,6,Obese,128/80,70,,No,128,80,48,Elevated
+159,Male,36,Manual Labor,5,6.9,26,7,Obese,128/81,58,8774,No,128,81,47,Elevated
+160,Female,56,Office Worker,4.9,5,80,2,Underweight,128/76,55,17160,Insomnia,128,76,52,Elevated
+161,Male,52,Manual Labor,8.8,8.4,13,8,Underweight,126/84,100,3230,No,126,84,42,Elevated
+162,Male,52,Student,11.4,6.4,102,6,Underweight,126/74,94,11076,No,126,74,52,Elevated
+163,Female,59,Office Worker,10.5,4.6,23,4,Obese,139/79,84,58050,No,139,79,60,Elevated
+164,Female,40,Manual Labor,4.3,9.8,12,5,Normal,120/77,88,,No,120,77,43,Normal
+165,Female,50,Retired,5.1,6.1,97,8,Overweight,125/75,71,7750,No,125,75,50,Elevated
+166,Male,35,Office Worker,10.6,8.1,110,3,Overweight,117/71,90,17627,No,117,71,46,Normal
+167,Female,44,Manual Labor,5.1,6.1,89,3,Obese,132/80,54,15232,No,132,80,52,Elevated
+168,Male,38,Student,6.9,5.9,67,4,Overweight,119/69,91,5135,No,119,69,50,Normal
+169,Male,41,Student,,7,64,1,Underweight,120/74,72,8953,Insomnia,120,74,46,Normal
+170,Female,48,Office Worker,5.2,5.4,13,9,Normal,124/72,66,3546,No,124,72,52,Elevated
+171,Female,27,Manual Labor,8.3,6.3,33,8,Overweight,113/60,61,17457,No,113,60,53,Normal
+172,Male,71,Office Worker,4.6,6.6,43,8,Normal,135/86,72,19478,Insomnia,135,86,49,Elevated
+173,Male,24,Office Worker,5.9,7.9,39,10,Underweight,112/60,65,4411,No,112,60,52,Normal
+174,Female,21,Manual Labor,9,1.7,91,6,Overweight,110/67,52,16113,No,110,67,43,Normal
+175,Female,57,Manual Labor,,8.2,28,7,Obese,138/93,79,6145,Sleep Apnea,138,93,45,Elevated
+176,Female,51,Retired,9.4,7.1,40,6,Normal,125/73,71,,No,125,73,52,Elevated
+177,Male,49,Manual Labor,7.8,9,69,9,Underweight,124/67,58,15193,No,124,67,57,Elevated
+178,Male,49,Student,9.9,4.7,69,3,Normal,124/73,78,14851,Insomnia,124,73,51,Elevated
+179,Male,39,Office Worker,8.8,7.3,28,3,Overweight,119/71,96,15070,No,119,71,48,Normal
+180,Male,26,Office Worker,11.3,7.3,58,3,Overweight,113/64,86,59700,No,113,64,49,Normal
+181,Male,41,Student,8.7,5.6,72,10,Obese,130/87,72,16119,No,130,87,43,Elevated
+182,Male,29,Manual Labor,6.2,4.9,119,3,Underweight,114/61,62,6331,No,114,61,53,Normal
+183,Female,54,Student,8.3,9.5,92,9,Underweight,127/73,81,12295,No,127,73,54,Elevated
+184,Male,37,Student,9.8,5.3,31,4,Obese,128/81,95,3942,Sleep Apnea,128,81,47,Elevated
+185,Male,27,Retired,8.2,3.1,33,7,Obese,123/76,96,18575,No,123,76,47,Elevated
+186,Male,35,Student,8,10,118,9,Underweight,117/66,97,15404,Insomnia,117,66,51,Normal
+187,Female,46,Office Worker,5.7,9.4,85,7,Normal,123/76,72,2861,No,123,76,47,Elevated
+188,Male,31,Student,5.8,4.7,39,9,Normal,115/66,94,11275,Insomnia,115,66,49,Normal
+189,Male,27,Office Worker,4.5,6,67,3,Obese,123/63,66,19033,Insomnia,123,63,60,Elevated
+190,Female,43,Office Worker,11.8,7.1,111,4,Normal,121/73,89,6134,No,121,73,48,Elevated
+191,Male,43,Office Worker,4.7,5.9,40,8,Underweight,121/73,70,13803,No,121,73,48,Elevated
+192,Male,32,Manual Labor,5.7,6.7,109,6,Overweight,116/70,51,17408,No,116,70,46,Normal
+193,Male,32,Retired,5.6,7.1,73,5,Overweight,116/63,86,19420,No,116,63,53,Normal
+194,Male,43,Office Worker,10.5,8,28,4,Normal,121/72,55,18351,Insomnia,121,72,49,Elevated
+195,Male,18,Office Worker,6.6,6.6,57,8,Obese,119/73,93,6131,Insomnia,119,73,46,Normal
+196,Female,18,Manual Labor,11.1,6.4,54,1,Obese,119/63,67,14057,No,119,63,56,Normal
+197,Female,29,Office Worker,5.8,7.2,109,9,Obese,124/67,79,13349,No,124,67,57,Elevated
+198,Female,36,Student,9.1,4.5,103,1,Obese,128/82,71,13486,No,128,82,46,Elevated
+199,Male,44,Student,5.3,10,64,8,Obese,132/92,82,7457,No,132,92,40,Elevated
+200,Male,62,Retired,,8.3,64,4,Normal,131/76,79,8079,No,131,76,55,Elevated
+201,Male,52,Office Worker,4.7,8.8,106,9,Overweight,126/80,66,14453,Insomnia,126,80,46,Elevated
+202,Female,37,Manual Labor,9,8,27,5,Overweight,118/65,92,14158,Sleep Apnea,118,65,53,Normal
+203,Male,39,Student,10.1,7.1,72,3,Normal,119/79,81,17735,No,119,79,40,Normal
+204,Male,24,Manual Labor,9.3,2.8,101,9,Obese,122/68,91,17830,No,122,68,54,Elevated
+205,Female,39,Manual Labor,6.8,4.9,56,9,Normal,119/76,100,17125,No,119,76,43,Normal
+206,Male,35,Student,7.2,5.9,84,4,Overweight,117/64,63,13905,No,117,64,53,Normal
+207,Female,44,Manual Labor,8.2,7,66,4,Underweight,122/72,59,14298,No,122,72,50,Elevated
+208,Female,27,Student,,6.5,54,8,Normal,113/68,96,4011,No,113,68,45,Normal
+209,Female,47,Manual Labor,10.6,6.9,42,2,Obese,133/86,100,5373,Insomnia,133,86,47,Elevated
+210,Male,62,Student,,3.8,26,9,Overweight,131/78,85,12335,No,131,78,53,Elevated
+210,Male,62,Student,,4,26,9,Overweight,131/78,85,12335,No,131,78,53,Elevated
+211,Male,38,Office Worker,6.1,7,79,6,Overweight,119/69,83,12692,No,119,69,50,Normal
+211,Male,38,Office Worker,6.1,8.5,79,6,Overweight,119/69,83,12692,No,119,69,50,Normal
+212,Male,46,Retired,,4.7,13,9,Overweight,123/71,58,16527,Sleep Apnea,123,71,52,Elevated
+213,Male,50,Student,7.4,7,29,8,Overweight,125/66,91,14773,Insomnia,125,66,59,Elevated
+214,Male,33,Student,11.9,7.5,56,7,Obese,126/84,77,3289,No,126,84,42,Elevated
+215,Male,43,Retired,5.4,5.1,100,1,Underweight,121/63,60,3447,No,121,63,58,Elevated
+216,Male,40,Student,,6.5,24,3,Overweight,120/70,63,16139,No,120,70,50,Normal
+217,Female,41,Student,11.8,6,79,2,Normal,120/75,88,15757,Insomnia,120,75,45,Normal
+218,Male,28,Manual Labor,6.1,6.9,56,5,Underweight,114/71,96,7462,Insomnia,114,71,43,Normal
+219,Female,40,Retired,,7.5,87,5,Overweight,120/71,68,,No,120,71,49,Normal
+220,Male,47,Office Worker,11.6,8.2,84,5,Underweight,123/69,64,6920,No,123,69,54,Elevated
+221,Male,61,Student,6.3,3.2,112,4,Normal,130/81,77,12345,Insomnia,130,81,49,Elevated
+222,Male,54,Retired,7.1,6.2,18,5,Overweight,127/70,73,10417,No,127,70,57,Elevated
+223,Female,72,Manual Labor,6,6.8,99,3,Normal,136/94,57,19160,No,136,94,42,Elevated
+224,Female,28,Office Worker,5,8.5,25,1,Obese,124/75,92,7208,No,124,75,49,Elevated
+225,Female,53,Retired,5.8,7,78,5,Overweight,126/83,58,2687,No,126,83,43,Elevated
+226,Female,42,Office Worker,4.7,10,70,9,Overweight,121/70,96,18913,No,121,70,51,Elevated
+227,Male,72,Office Worker,8.2,6.9,19,9,Overweight,136/82,82,15223,Insomnia,136,82,54,Elevated
+228,Female,27,Office Worker,5.5,6.6,59,4,Overweight,113/66,82,10080,Sleep Apnea,113,66,47,Normal
+229,Male,27,Student,8.9,5.8,12,3,Obese,123/87,68,11486,No,123,87,36,Elevated
+230,Male,31,Student,4.3,,86,1,Overweight,115/65,52,8094,No,115,65,50,Normal
+231,Female,18,Manual Labor,9.1,7.1,116,2,Underweight,109/60,59,9692,No,109,60,49,Normal
+232,Female,32,Manual Labor,10.4,7.4,103,8,Overweight,116/64,89,13088,No,116,64,52,Normal
+233,Female,28,Retired,4.2,5.4,118,1,Obese,124/68,96,5103,No,124,68,56,Elevated
+234,Female,42,Manual Labor,9.1,9.5,79,8,Overweight,121/77,91,4440,Sleep Apnea,121,77,44,Elevated
+235,Female,45,Office Worker,11.2,5.9,90,7,Underweight,122/69,50,9124,No,122,69,53,Elevated
+236,Female,68,Office Worker,,4.7,118,8,Obese,144/89,78,19228,No,144,89,55,Elevated
+237,Female,54,Student,11.7,6.3,60,6,Obese,137/96,99,16031,No,137,96,41,Elevated
+238,Female,31,Office Worker,9.2,6,28,9,Underweight,115/64,83,16536,Insomnia,115,64,51,Normal
+239,Male,26,Retired,5.7,4.5,51,3,Underweight,113/66,100,2446,Insomnia,113,66,47,Normal
+240,Female,47,Office Worker,7.8,4.1,44,10,Underweight,123/74,62,5915,Sleep Apnea,123,74,49,Elevated
+241,Female,20,Office Worker,9.6,8.1,55,4,Underweight,110/60,50,17787,Insomnia,110,60,50,Normal
+242,Male,67,Retired,8.4,5.4,35,6,Underweight,133/86,83,19618,No,133,86,47,Elevated
+243,Female,57,Manual Labor,9.8,6.1,78,8,Obese,138/92,78,8587,No,138,92,46,Elevated
+244,Male,32,Manual Labor,5.3,6.5,102,5,Obese,126/76,97,,No,126,76,50,Elevated
+245,Male,18,Retired,8.5,4.8,73,3,Overweight,109/65,96,13151,No,109,65,44,Normal
+246,Female,60,Student,4.5,7.9,46,6,Overweight,130/86,62,7558,No,130,86,44,Elevated
+247,Male,38,Office Worker,7.4,6.6,93,4,Normal,119/66,97,13971,No,119,66,53,Normal
+248,Male,58,Retired,5.3,7.1,58,9,Overweight,129/85,98,2186,No,129,85,44,Elevated
+249,Male,18,Office Worker,5.5,5.3,30,3,Overweight,109/60,78,16680,No,109,60,49,Normal
+250,Male,31,Student,11.2,4.1,83,4,Underweight,115/63,88,,No,115,63,52,Normal
+251,Female,40,Office Worker,11,3.8,73,7,Underweight,120/79,73,130690,Insomnia,120,79,41,Normal
+252,Male,40,Retired,10,6.2,14,7,Overweight,120/74,75,4535,No,120,74,46,Normal
+253,Female,33,Office Worker,4.9,3.3,109,4,Normal,116/61,66,3932,No,116,61,55,Normal
+254,Male,49,Manual Labor,6.5,3,79,6,Underweight,124/79,56,,No,124,79,45,Elevated
+255,Male,23,Student,11.1,5.4,99,3,Overweight,111/64,62,3252,No,111,64,47,Normal
+256,Male,37,Student,8.6,4.6,13,6,Overweight,118/66,54,7509,No,118,66,52,Normal
+257,Male,41,Student,,3.3,112,2,Obese,130/77,75,7074,No,130,77,53,Elevated
+258,Female,47,Retired,9.2,9.1,48,8,Normal,123/75,98,15900,No,123,75,48,Elevated
+259,Female,50,Student,8.8,4.5,44,2,Obese,135/88,52,16523,No,135,88,47,Elevated
+260,Male,23,Manual Labor,6.7,8,10,7,Normal,111/60,56,3881,No,111,60,51,Normal
+261,Male,18,Retired,8.5,6.1,33,9,Underweight,109/60,98,2269,No,109,60,49,Normal
+262,Female,59,Manual Labor,7.4,1,66,1,Normal,129/75,88,,No,129,75,54,Elevated
+263,Male,44,Office Worker,10.2,5.1,109,8,Overweight,122/72,50,19958,No,122,72,50,Elevated
+264,Male,28,Office Worker,10.5,,79,7,Overweight,114/69,98,15383,No,114,69,45,Normal
+265,Male,63,Office Worker,5.4,3.3,50,6,Normal,131/86,66,18152,No,131,86,45,Elevated
+266,Female,41,Office Worker,4.6,6.6,63,6,Normal,120/68,92,13084,No,120,68,52,Normal
+267,Female,57,Manual Labor,4.2,6.3,55,6,Normal,128/76,74,3695,No,128,76,52,Elevated
+268,Female,41,Retired,9.6,6.1,69,9,Obese,130/73,52,16821,No,130,73,57,Elevated
+269,Male,70,Retired,4.8,9.4,117,2,Normal,135/82,64,5262,No,135,82,53,Elevated
+270,Male,66,Student,4.2,4.9,69,1,Underweight,133/91,78,3445,Insomnia,133,91,42,Elevated
+271,Female,36,Manual Labor,9.2,5.6,66,6,Obese,128/73,92,18436,Insomnia,128,73,55,Elevated
+272,Female,54,Office Worker,,2.9,40,10,Obese,137/92,81,11949,Insomnia,137,92,45,Elevated
+273,Female,49,Manual Labor,8,5.3,93,8,Normal,124/76,75,8901,No,124,76,48,Elevated
+274,Female,60,Student,10.4,6.9,33,3,Underweight,130/79,65,2719,No,130,79,51,Elevated
+275,Male,25,Student,8.4,3.1,98,10,Obese,122/63,74,10597,No,122,63,59,Elevated
+276,Female,50,Manual Labor,7.4,4.7,45,1,Overweight,125/60,77,8855,No,125,60,65,Elevated
+277,Male,55,Manual Labor,10.5,5.5,94,9,Obese,137/84,58,10263,No,137,84,53,Elevated
+278,Female,18,Manual Labor,6.4,8.8,39,1,Normal,109/60,50,16520,No,109,60,49,Normal
+279,Male,22,Retired,8.9,7.8,33,3,Underweight,111/60,78,13874,Sleep Apnea,111,60,51,Normal
+280,Female,18,Office Worker,9,6,117,8,Normal,109/60,71,16079,No,109,60,49,Normal
+281,Female,35,Manual Labor,5.9,3.2,115,3,Overweight,117/69,65,19082,Insomnia,117,69,48,Normal
+281,Female,35,Manual Labor,5.9,5.7,115,3,Overweight,117/69,65,19082,Insomnia,117,69,48,Normal
+282,Female,50,Manual Labor,10.8,5.8,39,4,Overweight,125/67,90,92430,No,125,67,58,Elevated
+283,Female,62,Manual Labor,7.3,2,95,8,Overweight,131/80,100,11018,No,131,80,51,Elevated
+284,Male,41,Student,5.4,7.7,101,1,Normal,120/68,93,18732,No,120,68,52,Normal
+285,Female,64,Student,9.7,3.9,16,6,Obese,142/89,100,14100,No,142,89,53,Elevated
+286,Male,19,Retired,,10,44,1,Normal,109/60,90,186910,Insomnia,109,60,49,Normal
+287,Male,18,Office Worker,8.1,4.1,64,1,Underweight,109/60,56,6820,No,109,60,49,Normal
+288,Male,39,Retired,7.9,3.9,101,8,Obese,129/83,63,13001,No,129,83,46,Elevated
+289,Male,45,Office Worker,10.9,7.3,23,4,Overweight,122/75,78,15907,Insomnia,122,75,47,Elevated
+290,Female,39,Student,9.5,4.5,19,1,Normal,119/75,68,13669,No,119,75,44,Normal
+291,Male,18,Student,7.7,8.8,89,10,Overweight,109/60,68,17916,Sleep Apnea,109,60,49,Normal
+292,Male,38,Student,10.4,4.3,25,7,Overweight,119/66,51,12878,No,119,66,53,Normal
+293,Male,20,Retired,11.3,8.8,63,5,Underweight,110/60,90,4985,No,110,60,50,Normal
+294,Female,50,Manual Labor,9.7,8.4,104,5,Obese,135/77,94,10112,No,135,77,58,Elevated
+295,Female,45,Manual Labor,7.9,7.9,115,1,Underweight,122/73,64,10467,No,122,73,49,Elevated
+296,Female,25,Student,4.6,7.9,98,10,Underweight,112/60,52,2336,No,112,60,52,Normal
+297,Female,32,Manual Labor,5,6.7,86,6,Underweight,116/72,60,12165,No,116,72,44,Normal
+298,Male,24,Manual Labor,6.5,7.9,79,9,Overweight,112/64,95,14768,Insomnia,112,64,48,Normal
+299,Male,39,Retired,,6.3,53,9,Underweight,119/66,79,5968,Insomnia,119,66,53,Normal
+300,Female,54,Office Worker,7.1,6.2,82,8,Underweight,127/73,89,2910,No,127,73,54,Elevated
+301,Male,25,Student,,5.6,54,5,Obese,122/74,67,17632,No,122,74,48,Elevated
+302,Male,47,Student,9.7,6.1,109,1,Obese,133/84,100,18279,No,133,84,49,Elevated
+303,Male,32,Retired,7.6,6.4,65,9,Underweight,116/74,97,5129,No,116,74,42,Normal
+304,Female,28,Retired,9.5,10,116,1,Obese,124/76,51,7447,No,124,76,48,Elevated
+305,Female,38,Manual Labor,8.3,2,93,8,Obese,129/75,81,8129,No,129,75,54,Elevated
+306,Male,24,Student,4.2,5.9,91,5,Underweight,112/60,57,7850,No,112,60,52,Normal
+307,Female,31,Office Worker,5.3,2,116,3,Overweight,115/63,71,9446,No,115,63,52,Normal
+308,Female,22,Retired,7.1,,66,7,Underweight,111/61,55,13949,Sleep Apnea,111,61,50,Normal
+309,Female,69,Office Worker,4.7,7.3,30,7,Obese,144/94,61,10519,No,144,94,50,Hypertension
+310,Female,40,Office Worker,9.9,5.1,77,9,Overweight,120/74,96,2314,No,120,74,46,Normal
+311,Female,29,Student,11.6,3.9,59,7,Normal,114/61,89,13737,No,114,61,53,Normal
+312,Male,43,Student,11,7.8,42,3,Overweight,121/69,85,3134,No,121,69,52,Elevated
+313,Female,38,Retired,7,5.6,100,1,Obese,129/77,64,12938,No,129,77,52,Elevated
+314,Male,36,Student,11.5,5.6,16,8,Overweight,118/71,77,,No,118,71,47,Normal
+315,Male,49,Student,8.7,3.5,79,3,Underweight,124/85,98,10347,Insomnia,124,85,39,Elevated
+316,Female,51,Student,6.3,7.5,24,8,Normal,125/70,94,7592,No,125,70,55,Elevated
+317,Male,32,Office Worker,6,7.1,91,8,Normal,116/69,67,19270,No,116,69,47,Normal
+318,Male,31,Retired,6.7,4.6,41,5,Normal,115/70,51,,Sleep Apnea,115,70,45,Normal
+319,Male,35,Manual Labor,6.3,5.7,84,1,Obese,127/74,62,2721,Insomnia,127,74,53,Elevated
+320,Female,18,Office Worker,8.7,1,29,10,Obese,119/71,94,11104,No,119,71,48,Normal
+321,Female,18,Student,8.6,9.1,97,7,Normal,109/60,64,2870,No,109,60,49,Normal
+322,Male,60,Office Worker,7.9,7.5,24,10,Overweight,130/77,69,8751,No,130,77,53,Elevated
+323,Female,64,Student,9.4,2.9,57,5,Normal,132/79,78,18881,No,132,79,53,Elevated
+324,Female,36,Student,11,7.1,80,8,Overweight,118/75,91,3756,No,118,75,43,Normal
+325,Female,48,Office Worker,10.7,4.5,30,9,Overweight,124/68,78,3117,No,124,68,56,Elevated
+326,Female,44,Retired,,7,51,7,Obese,132/81,52,13601,No,132,81,51,Elevated
+327,Male,86,Student,4.1,9.7,35,7,Overweight,143/95,68,48280,No,143,95,48,Hypertension
+328,Male,56,Retired,10.6,9.4,117,1,Normal,128/78,52,16996,No,128,78,50,Elevated
+329,Female,38,Manual Labor,4.6,3.2,23,4,Obese,129/88,63,15878,No,129,88,41,Elevated
+330,Female,25,Student,7.1,6.8,66,2,Underweight,112/60,89,8992,No,112,60,52,Normal
+331,Male,18,Retired,4.7,,46,2,Underweight,109/65,53,15778,No,109,65,44,Normal
+332,Male,43,Retired,4.2,7.2,67,2,Obese,131/88,60,8771,No,131,88,43,Elevated
+333,Female,28,Manual Labor,9.6,10,30,4,Normal,114/72,80,18526,No,114,72,42,Normal
+334,Male,18,Retired,10.2,,91,1,Underweight,109/60,92,5435,No,109,60,49,Normal
+335,Female,30,Retired,5.9,7.1,78,4,Underweight,115/69,81,8622,No,115,69,46,Normal
+336,Female,23,Manual Labor,4.1,6.8,12,2,Overweight,111/60,76,14852,No,111,60,51,Normal
+337,Male,65,Student,6.1,6,96,5,Overweight,132/85,79,16806,No,132,85,47,Elevated
+338,Male,53,Retired,9.3,4,99,3,Normal,126/85,92,12623,Insomnia,126,85,41,Elevated
+339,Female,39,Retired,4.4,6.8,46,8,Obese,129/85,51,3848,Insomnia,129,85,44,Elevated
+340,Female,62,Retired,8.7,,97,4,Normal,131/75,98,4696,No,131,75,56,Elevated
+341,Male,41,Office Worker,7.8,5.7,58,1,Obese,130/81,58,3717,No,130,81,49,Elevated
+342,Female,27,Manual Labor,9.9,6.7,28,1,Underweight,113/66,77,11259,No,113,66,47,Normal
+343,Male,62,Office Worker,8.3,8.4,98,10,Overweight,131/81,80,,No,131,81,50,Elevated
+344,Female,48,Manual Labor,5.1,9.1,94,3,Normal,124/72,83,161540,No,124,72,52,Elevated
+345,Male,24,Student,11,10,21,9,Normal,112/60,64,15409,Sleep Apnea,112,60,52,Normal
+346,Male,37,Student,7.2,6.2,70,7,Obese,128/71,97,5791,No,128,71,57,Elevated
+347,Male,26,Retired,7.8,3.8,50,2,Obese,123/75,74,5871,No,123,75,48,Elevated
+348,Female,19,Manual Labor,5.2,6.1,42,9,Normal,109/66,85,3806,Insomnia,109,66,43,Normal
+349,Female,53,Student,6.2,7.1,59,10,Obese,136/89,57,19888,Sleep Apnea,136,89,47,Elevated
+350,Male,68,Manual Labor,5.3,4.9,77,2,Normal,134/83,58,15304,Insomnia,134,83,51,Elevated
+351,Female,19,Student,7.2,8.6,115,3,Normal,109/64,86,17549,No,109,64,45,Normal
+352,Male,48,Office Worker,11.7,10,80,10,Normal,124/79,97,5303,No,124,79,45,Elevated
+353,Male,30,Student,,4.9,95,2,Underweight,115/64,94,18061,No,115,64,51,Normal
+354,Female,32,Office Worker,4.3,8.4,42,3,Obese,126/77,88,17198,No,126,77,49,Elevated
+355,Female,31,Student,11.5,4,90,6,Overweight,115/65,81,19888,No,115,65,50,Normal
+356,Male,27,Retired,6.8,6.9,33,9,Overweight,113/67,66,12655,No,113,67,46,Normal
+357,Female,40,Office Worker,5.8,5.9,70,9,Obese,130/82,84,10924,Sleep Apnea,130,82,48,Elevated
+358,Female,27,Student,10.9,3.6,70,7,Normal,113/68,86,11940,No,113,68,45,Normal
+359,Male,44,Retired,6,6.1,107,3,Overweight,122/68,68,5924,No,122,68,54,Elevated
+360,Male,39,Office Worker,11.8,8.1,37,4,Overweight,119/64,93,11783,No,119,64,55,Normal
+361,Female,36,Retired,10.2,3.8,67,6,Obese,128/88,78,6485,No,128,88,40,Elevated
+362,Male,26,Manual Labor,6.2,3.5,52,5,Overweight,113/68,56,14629,No,113,68,45,Normal
+363,Male,31,Manual Labor,11.9,3.9,50,2,Normal,115/73,77,15233,No,115,73,42,Normal
+364,Female,51,Office Worker,5.9,,48,6,Obese,135/89,58,149010,No,135,89,46,Elevated
+365,Male,47,Student,10.2,5.4,95,3,Normal,123/74,77,2191,Insomnia,123,74,49,Elevated
+366,Male,25,Office Worker,8.9,,58,8,Overweight,112/70,55,6917,No,112,70,42,Normal
+367,Female,41,Retired,11.2,9,26,2,Overweight,120/75,78,7831,Sleep Apnea,120,75,45,Normal
+368,Female,51,Student,11.5,8.3,107,1,Normal,125/81,66,12160,No,125,81,44,Elevated
+369,Male,18,Manual Labor,8.1,4.2,79,9,Underweight,109/60,65,15682,No,109,60,49,Normal
+370,Male,48,Student,5.5,6.2,119,3,Overweight,124/74,72,14391,No,124,74,50,Elevated
+371,Female,30,Manual Labor,9.5,5.4,79,1,Underweight,115/69,80,3874,No,115,69,46,Normal
+372,Female,48,Student,5.7,3.6,107,7,Overweight,124/74,52,11062,No,124,74,50,Elevated
+373,Female,28,Student,11.9,4,74,10,Underweight,114/67,70,6763,No,114,67,47,Normal
+374,Female,18,Student,8.5,9.3,83,5,Underweight,109/61,75,12234,Insomnia,109,61,48,Normal
+375,Male,18,Retired,6.4,4.4,94,5,Underweight,109/60,85,11221,Insomnia,109,60,49,Normal
+376,Female,40,Retired,8.8,6.2,14,1,Normal,120/64,91,13410,No,120,64,56,Normal
+377,Female,43,Office Worker,4.6,7.2,11,9,Underweight,121/78,86,16519,Insomnia,121,78,43,Elevated
+378,Male,26,Office Worker,5.3,2.9,31,7,Underweight,113/60,71,,No,113,60,53,Normal
+379,Female,49,Manual Labor,11,7.8,66,8,Underweight,124/70,91,14225,Insomnia,124,70,54,Elevated
+380,Male,18,Retired,5.8,5.7,75,9,Overweight,109/65,61,11765,No,109,65,44,Normal
+381,Female,39,Manual Labor,5,5.8,83,6,Underweight,119/65,91,13382,No,119,65,54,Normal
+382,Female,21,Office Worker,9.8,6.9,107,5,Overweight,110/60,62,14580,Insomnia,110,60,50,Normal
+383,Female,30,Manual Labor,11.1,4.7,25,6,Underweight,115/71,60,13989,No,115,71,44,Normal
+384,Male,40,Office Worker,10.2,5.2,60,2,Underweight,120/75,65,13939,Insomnia,120,75,45,Normal
+385,Male,27,Retired,10.7,6.2,48,4,Normal,113/60,57,2307,No,113,60,53,Normal
+386,Female,34,Student,5.6,4.6,95,3,Overweight,117/66,89,5359,No,117,66,51,Normal
+387,Male,55,Retired,4.5,5.5,85,7,Underweight,127/75,89,5176,No,127,75,52,Elevated
+388,Male,31,Manual Labor,11.5,5.7,97,9,Overweight,115/64,94,3251,No,115,64,51,Normal
+389,Male,52,Manual Labor,6.6,7.4,120,5,Overweight,126/75,51,7366,No,126,75,51,Elevated
+390,Male,23,Retired,6.8,4.8,49,6,Obese,121/78,79,19901,Insomnia,121,78,43,Elevated
+391,Male,47,Retired,,6.5,47,10,Normal,123/68,79,8226,No,123,68,55,Elevated
+392,Male,61,Office Worker,9.7,6.4,69,2,Normal,130/75,61,16330,Insomnia,130,75,55,Elevated
+393,Female,18,Manual Labor,9.4,,68,3,Normal,109/61,59,6891,Insomnia,109,61,48,Normal
+394,Female,28,Manual Labor,,2.3,19,3,Obese,124/75,93,,No,124,75,49,Elevated
+395,Male,48,Retired,,4.9,108,9,Obese,134/92,60,3961,Insomnia,134,92,42,Elevated
+396,Female,36,Student,10.6,3.7,73,7,Normal,118/66,64,14497,Sleep Apnea,118,66,52,Normal
+397,Female,45,Manual Labor,8,,72,8,Obese,132/80,65,12848,Insomnia,132,80,52,Elevated
+398,Female,30,Student,8.9,4.7,58,10,Obese,125/76,66,15255,Insomnia,125,76,49,Elevated
+399,Female,41,Retired,11.6,4.8,73,9,Obese,130/75,75,6567,Sleep Apnea,130,75,55,Elevated
+400,Male,37,Retired,9.5,5.9,41,6,Normal,118/70,51,18079,No,118,70,48,Normal
